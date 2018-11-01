@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+	<title>Fillstruktur</title>
+	<style>
+	
+	body{
+		background-color: rgb(175,175,190);
+	}
+		<meta charset = "UTF-8">
+	</style>
+</head>
+<body>
+<!--En lenke til startsiden.-->
+<a href="index.html">Hjem til Startside</a>
+</body>
+</html>
