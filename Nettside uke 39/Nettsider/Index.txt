@@ -1,0 +1,35 @@
+<!doctype>
+<html>
+<head>
+	<title>Startside</title>
+	
+	<style>
+
+	body{
+		background-color: rgb(175,175,190);
+	}	
+	<!--Jeg setter fargen til hele nettsida.-->
+	<!--Setter utf-8 som tegnsett.-->
+		<meta charset = "UTF-8">
+	</style>
+	
+</head>
+<body>
+	<!--Leger til et bilde fra mappen bilder.-->
+	<center><img src="bilder/Informasjonsteknologi.jpg" alt="Bilde 1"height="200"></center>
+	<h1><center>Velkomen!</center></h1>
+	<p><center>
+	Her finner du et sammendrag av kapittel 4 om internett.<br>
+	Du kan også finne et bilde av filstruktur<br>
+	Vi ha også inkuldert er skjema med noen artige spørsmål.
+	</center></p>
+
+	<ul>
+		<!--Her leger jeg til lenker til andre nettsider i samme file mappe. Det er organisert som en liste.-->
+		<center><li><a href="sammendrag.html"> Sammendrag </a></center>
+		<center><li><a href="fillstruktur.html"> Fillstruktur</a></center>		
+		<center><li><a href="skjema.html">Skjema</a></center>
+	</ul>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+body{
+	background-color: #082038;
+}
+
+.Innpakning{
+	width: 1200px;
+	height: 800px;
+	background-color: #c00808;
+	margin: auto;
+	display: flex; 
+	flex-direction: row;
+	flex-wrap: wrap;
+	border-style: solid;
+	border-color: #780008;
+	border-width: 10px;
+	font-family: Verdana;
+}
+
+.Overskrift{
+	height: 120px;
+	background-color: #104868;
+	flex-basis: 100%;
+	padding: 20px;
+	margin: 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #780008;
+	/*Setter overskriften i sentrum av div-elemntet	*/
+	text-align: center;
+	vertical-align: middle;
+	/*line-height: 75px; */
+	color: #082038;/*Text Color*/
+	order: 1;
+}
+.meny{
+	flex-basis: 200px;
+	background-color: #0191C8;
+	padding: 20px;
+	margin: 20px;
+	order: 2;
+}
+.Body{
+	flex: 1;
+	background-color: #207098;
+	padding: 20px;
+	margin: 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #780008;
+	order: 2;
+}
