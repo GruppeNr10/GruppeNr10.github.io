@@ -1,0 +1,128 @@
+.box {
+      width: 85%;
+      margin: 5px auto;
+      padding: 5px;
+      background-color: #000000;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+.topp{
+      flex-basis: 100%;
+      height: 60px;
+      background-color: #FFFFFF;/**/
+	text-align: center;
+      order: 1;
+	font-size: 45px;
+	color: #D9D9D9;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+
+    }
+
+.toppunder{
+      flex-basis: 100%;
+      height: 60px;
+      background-color: #FFFFFF;/**/
+     	text-align: center;
+     order: 1;
+	font-size: 20px;
+	color: #D9D9D9; /* Lysere gråfarge*/
+	margin-under: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+
+    }
+
+.meny {
+      flex-basis 200px;
+      background-color: #808080;
+      padding: 5px 20px 5px; /*5px betyr topp, 20px betyr 			venstre og høyre, 5px betyr bunn*/
+      margin: 5px;
+      order: 2;
+	color: #48FFFF; /**/
+	font-size: 30px;
+	text-decoration: none;
+	
+    }
+
+.innhold {
+    background-color: #FFFFFF;/* Ganske standard grå farge*/
+     flex: 1;
+     order: 3;
+	padding: 5px;
+	margin: 5px;
+	align-items: stretch;
+	flex-direction: row;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+
+    }
+
+.info {
+	width: 40%;	
+	flex-basis 100%;
+	background-color: #48ffff;
+	padding: 10px;
+	margin: 10px;
+	margin-over: 20px;
+	order: 1;
+	border: 10px;
+	}
+
+.info1 {
+	width: 40%;	      
+	flex-basis 10%;
+      background-color: #48ffff;
+      padding: 10px;
+      margin: 10px;
+	margin-over: 20px;
+      order: 2;
+	flex-grow: 0;
+	}
+.tabell {
+	width: 100%;	
+	flex-basis 100%;
+	background-color: #48ffff;
+	padding: 10px;
+	margin: 10px;
+	margin-over: 20px;
+	order: 1;
+	}
+
+	
+table#t01 tr:nth-child(even){
+	background-color: #20DDDD;
+}
+table#t01 tr:nth-child(odd){
+	background-color: #20AAAA;
+}
+table#t01 th{
+	color: white;
+	background-color: black;
+}
+table#t01 {
+border-style: solid;
+border-width: 5px;
+border-color: #111111;
+width: 100%;
+
+}
+
+img {
+width: 100%;
+}
+
+/*"a" elementet er for å få vekk stygge fargen på lenker */
+a:link, a:visited {
+text-decoration: none;
+color: #48FFFF;
+
+}
+a:hover, a:active{
+	text-decortation: underline;
+	color: #21AAAA;
+} 
